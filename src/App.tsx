@@ -20,7 +20,7 @@ import AddQnaPage from './pages/qna/AddQnaPage';
 import QnaPage from './pages/qna/QnaPage';
 import CustomerPage from './pages/customer/CustomerPage';
 import CheckIn from './pages/CheckIn/CheckIn';
-
+import Passport from './pages/CheckIn/Passport';
 
 // todo: 리액트 import
 
@@ -36,8 +36,10 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/elements" element={<Elements/>} />  
+
+          {/* 체크인 */}
           <Route path="/checkin" element={<CheckIn/>} />  
-          
+          <Route path="/passport" element={<Passport/>} />  
 
           {/* 고객 */}
           <Route path="/customer" element={<CustomerListPage/>} />  

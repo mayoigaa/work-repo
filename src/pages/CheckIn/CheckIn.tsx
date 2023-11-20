@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import initScripts from "../../assets/js/scripts";
 import initCustom from "../../assets/js/custom";
+import { Link } from "react-router-dom";
+import Passport from "./Passport";
 
 function CheckIn() {
   useEffect(() => {
@@ -60,6 +62,7 @@ function CheckIn() {
                             value="조회하기"
                           />
                         </div>
+
                       </div>
                     </form>
                   </div>
@@ -135,40 +138,6 @@ function CheckIn() {
             </tr>
           </tbody>
         </table>
-
-        {/* 예약 정보 영어  성명, 여권번호 조회   */}
-        <div>
-          <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">
-              성
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows={1}
-            ></textarea>
-          </div>
-         
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">
-              이름
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows={1}
-            ></textarea>
-    
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">
-              예약번호
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows={1}
-            ></textarea>
-         
-        </div>
-        {/* 예약 정보 영어  성명, 여권번호 조회   */}
       </div>
     </>
   );
