@@ -1,0 +1,25 @@
+.box {
+    /* 가로 */
+    width: 100px;
+    /* 세로 */
+    height: 100px;
+    /* 가로 중앙 정렬 */
+    margin: 50px auto;
+    /* 배경색 */
+    background-color: orange;
+    /* 외곽선 */
+    border: 1px solid black;
+    /* TODO: 애니메이션 부여(축약식) */
+    transition: all ease-in 10s;
+  }
+  
+  /* 마우스가 위로 올라가면 :hover */
+  .box:hover {
+    /* 가로 100px -> 200px */
+    width: 200px;
+    /* 세로 100px -> 200px */
+    height: 200px;
+    /* 배경색 */
+    background-color: red;
+  }
+  

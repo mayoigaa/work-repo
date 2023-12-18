@@ -1,0 +1,31 @@
+body {
+    background-image: url("../img/card.jpg");
+     /* 배경 이미지 반복 중지 속성  */
+     background-repeat: no-repeat;
+     
+   
+}
+p {
+    /* 글자 크기 */
+    font-size: 20px;
+    /* 바깥 여백 - 위쪽 */
+    margin-top: 160px;
+    /* 바깥 여백 - 왼쪽 */
+    margin-left: 130px;
+    /* 가로 크기 */
+    width: 280px;
+}
+
+div {
+    
+    background-color: blue;
+    color: white;
+    width: 120px;
+    /* 바깥 여백 - 왼쪽*/
+    margin-left: 210px;
+    /* 바깥 여백 - 위쪽 */
+    margin-top: 30px;
+    /* 안쪽 여백 */
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/* 부모(relative) + 자식(absolute) 같이 사용하면 현상? */
+/* TODO : 자식 div 태그에 absolute의 (0,0) 웹브라우저가 아니라,
+   TODO : 부모 div 박스의 왼쪽/위 모서리로  (0,0) 변경된다.
+*/
+
+/* 부모 박스 */
+.parent {
+    /* 가로 */
+    width: 500px;
+    /* 세로 */
+    height: 500px;
+    border: 1px solid gray;
+    /* 상대 좌표: 부모 */
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* 절대 좌표 */
+    position: absolute;
+    /* 왼쪽 (x좌표) */
+    left: 50px;
+    /* 위쪽 (y좌표) */
+    top: 50px;
+}

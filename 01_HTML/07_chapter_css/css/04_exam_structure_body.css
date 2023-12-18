@@ -1,0 +1,68 @@
+/* 본문 영역 */
+.contents {
+    /* 가로 */
+    width: 1000px;
+    /* 중앙정렬 */
+    /* margin: 상하 auto */
+    margin: 50px auto;
+}
+
+/* section 별 위쪽 여백 */
+main > section {
+    /* 바깥여백 - 위 */
+    margin-top: 60px;
+}
+
+/* 본문 - 글 */
+.detail p {
+    /* 글자색 */
+    color: #222;
+    /* 바깥여백 - 아래 */
+    margin-bottom: 30px;
+}
+
+/* 본문 - 이미지 */
+.detail > img {
+    /* 좌측 배치 */
+    float: left;
+    /* 바깥여백 - 오른쪽 */
+    margin-right: 50px;
+    /* 둥근 사각형 : 값이 클수록 원이 됨 */
+    border-radius: 20px;
+}
+
+/* 여백 들 추가 */
+/* 본문 - 제목 */
+main h2 {
+    /* 글자 크기 */
+    font-size: 1.5em;
+    /* 바깥여백 - 아래 */
+    margin-bottom: 40px;
+}
+
+/* div : 이미지(왼쪽) + 상세설명(글) */
+main div {
+    /* 바깥여백 - 위쪽 */
+    margin-top: 20px;
+}
+
+/* main : 소제목  */
+main h3 {
+    /* 글자 크기 */
+    font-size: 1.2em;
+    /* 바깥여백 - 아래 */
+    margin-bottom: 20px;
+}
+
+/* 기타 등등 */
+/* main - 상세 일정 */
+.schedule h3 {
+    /* 글자 크기 */
+    font-size: 1.2em;
+}
+
+/* main - 상세일정(li) */
+.schedule ul li {
+    /* 바깥여백 - 아래 */
+    margin-bottom: 20px;
+}

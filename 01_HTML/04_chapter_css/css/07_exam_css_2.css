@@ -1,0 +1,15 @@
+p {
+color: green;
+}
+span {
+    /* 밑줄 */
+    text-decoration: underline;
+    /* 굵은 글씨 */
+    font-weight: bold;
+    /* 글자 색 */
+    color: blue;
+    /* 폰트 스타일 */
+    font-family: 'Times New Roman', Times, serif;
+    /* 글자 크기 */
+    font-size:  18px;
+}

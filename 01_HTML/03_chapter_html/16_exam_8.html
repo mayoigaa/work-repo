@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 행병합 힌트 : <td rowspan="2">내용</td> -->
+    <!-- 4행 5열 -->
+    <table border="1">
+        <!-- 제목 : 생략가능  -->
+        <thead>
+        <tr>
+            <!-- 1행 , -->
+            <!-- 제목 열 -->
+            <th colspan="2">날짜</th>
+            <th>날싸</th>
+            <th>풍향</th>
+            <th>풍속(m/s)</th>
+        </tr>
+         </thead>
+         <!-- 본문 시작 -->
+            <!-- 2행 -->
+            <tr>
+            <td>24일 (월)</td>
+            <td>오후</td>
+            <td><img src="./image/rain.png" alt="비"></td>
+            <td>남~남서</td>
+            <td>3 ~7</td>
+        </tr>         
+            <!-- 3행 -->
+         <tr>
+            <td rowspan="2"> 25일(화)</td>
+            <td>오전</td>
+            <td><img src="./image/rain.png" alt="비"></td>
+            <td>서북 ~서</td>
+            <td>3~6</td>
+        </tr>
+         <!-- 4행 -->
+         <tr>
+            <!-- td : 행병합 -->
+            <td>오후</td>
+            <td><img src="./image/shine.png" alt="맑음"></td>
+            <td>북서~서</td>
+            <td>3~6</td>
+        </tr>
+         
+    </table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+}
+h3 {
+    font-size: bold;
+}
+div {
+    padding: 10px;
+    text-align: left;
+}
+
+#button {
+    background-color: blue;
+    color: white;
+    /* 가로크기 */
+    width: 120px;
+    /* 세로크기 */
+    height: 25px;
+    /* 안쪽여백 */
+    padding: 8px;
+    /* 글자 중앙 정렬 */
+    text-align: left;
+}
